@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interface">
+  <grid id="27dc6" binding="mainPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1248" height="505"/>
+    </constraints>
+    <properties>
+      <maximumSize width="400" height="311"/>
+      <minimumSize width="400" height="350"/>
+      <preferredSize width="400" height="350"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="57d76" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="28d2e" binding="textPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Текст"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="35569" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="381" height="155"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="34b29" class="javax.swing.JRadioButton" binding="radioButton1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <selected value="true"/>
+                      <text value="Режим простой замены"/>
+                    </properties>
+                  </component>
+                  <component id="135d1" class="javax.swing.JRadioButton" binding="radioButton2">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим гаммирования"/>
+                    </properties>
+                  </component>
+                  <component id="e4708" class="javax.swing.JRadioButton" binding="radioButton4">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим простой работы с зацеплением"/>
+                    </properties>
+                  </component>
+                  <component id="7b8aa" class="javax.swing.JRadioButton" binding="radioButton3">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="17"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим гаммирования с обратной связью по выходу"/>
+                    </properties>
+                  </component>
+                  <component id="63bec" class="javax.swing.JRadioButton" binding="radioButton6">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим выработки имитовставки"/>
+                    </properties>
+                  </component>
+                  <component id="9b944" class="javax.swing.JRadioButton" binding="radioButton5">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим гаммирования с обратной связью по шифротексту"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="f11d7" class="javax.swing.JLabel" binding="Label1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="16"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Текст для зашифрования"/>
+                </properties>
+              </component>
+              <component id="b553d" class="javax.swing.JButton" binding="decryptButton">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Расшифровать"/>
+                </properties>
+              </component>
+              <component id="2d7cc" class="javax.swing.JLabel" binding="Label3">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="25"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Расшифрованный текст"/>
+                </properties>
+              </component>
+              <scrollpane id="722e0">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="79"/>
+                    <maximum-size width="400" height="400"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e4882" class="javax.swing.JTextArea" binding="textField1">
+                    <constraints/>
+                    <properties>
+                      <lineWrap value="true"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="b3f78" class="javax.swing.JButton" binding="encryptButton">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Зашифровать"/>
+                </properties>
+              </component>
+              <scrollpane id="52cbd">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="79"/>
+                    <maximum-size width="400" height="400"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="da802" class="javax.swing.JTextArea" binding="textField2">
+                    <constraints/>
+                    <properties>
+                      <dragEnabled value="false"/>
+                      <lineWrap value="true"/>
+                      <preferredSize width="350" height="18"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="67456">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="79"/>
+                    <maximum-size width="400" height="400"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="19ee2" class="javax.swing.JTextArea" binding="textField3">
+                    <constraints/>
+                    <properties>
+                      <lineWrap value="true"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="19758" class="javax.swing.JLabel" binding="Label2">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="25"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Зашифрованный текст"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="689dc" binding="imagePanel" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Изображения"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="63988" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="6" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="381" height="155"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="137a1" class="javax.swing.JRadioButton" binding="radioButton11">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <selected value="true"/>
+                      <text value="Режим простой замены"/>
+                    </properties>
+                  </component>
+                  <component id="17e9f" class="javax.swing.JRadioButton" binding="radioButton22">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим гаммирования"/>
+                    </properties>
+                  </component>
+                  <component id="a373" class="javax.swing.JRadioButton" binding="radioButton44">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим простой работы с зацеплением"/>
+                    </properties>
+                  </component>
+                  <component id="2d59d" class="javax.swing.JRadioButton" binding="radioButton33">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="17"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим гаммирования с обратной связью по выходу"/>
+                    </properties>
+                  </component>
+                  <component id="a53f7" class="javax.swing.JRadioButton" binding="radioButton66">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим выработки имитовставки"/>
+                    </properties>
+                  </component>
+                  <component id="d807d" class="javax.swing.JRadioButton" binding="radioButton55">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="183" height="21"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Режим гаммирования с обратной связью по шифротексту"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="7edf3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="16"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Изображение для зашифрования"/>
+                </properties>
+              </component>
+              <component id="9a21b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="25"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Зашифрованное изображение"/>
+                </properties>
+              </component>
+              <component id="d680f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="25"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Расшифрованное изображение"/>
+                </properties>
+              </component>
+              <component id="5bedb" class="javax.swing.JButton" binding="encryptImageButton">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Зашифровать"/>
+                </properties>
+              </component>
+              <grid id="ed417" binding="JPanelImageToCipher" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="79"/>
+                    <maximum-size width="400" height="400"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="line">
+                  <color color="-11052716"/>
+                </border>
+                <children>
+                  <component id="5a1d8" class="javax.swing.JLabel" binding="imageToCipherLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="400" height="79"/>
+                        <maximum-size width="395" height="398"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="dc7ea" binding="JPanelImageToDecipher" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="79"/>
+                    <maximum-size width="400" height="400"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="line">
+                  <color color="-11052716"/>
+                </border>
+                <children>
+                  <component id="d6542" class="javax.swing.JLabel" binding="imageToDecipherLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="400" height="79"/>
+                        <maximum-size width="395" height="398"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="7f8a0" binding="JPanelImageDeciphered" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="79"/>
+                    <maximum-size width="400" height="400"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="line">
+                  <color color="-11052716"/>
+                </border>
+                <children>
+                  <component id="88fcc" class="javax.swing.JLabel" binding="imageDecipheredLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="400" height="79"/>
+                        <maximum-size width="395" height="398"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="2e5f5" class="javax.swing.JButton" binding="loadImageToCipher">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Загрузить изображение"/>
+                </properties>
+              </component>
+              <component id="88ce6" class="javax.swing.JButton" binding="loadImageToDecipher">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Загрузить изображение"/>
+                </properties>
+              </component>
+              <component id="7d813" class="javax.swing.JButton" binding="decryptImageButton">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Расшифровать"/>
+                </properties>
+              </component>
+              <component id="23137" class="javax.swing.JButton" binding="saveCipheredImage">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Сохранить изображение"/>
+                </properties>
+              </component>
+              <component id="9aae4" class="javax.swing.JButton" binding="saveDecipheredImage">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Сохранить изображение"/>
+                </properties>
+              </component>
+              <component id="b03d4" class="javax.swing.JLabel" binding="ImageMACLabel">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

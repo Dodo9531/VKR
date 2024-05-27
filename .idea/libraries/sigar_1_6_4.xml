@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sigar-1.6.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/metrics-core-4.2.23.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/oshi-core-6.4.10.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jna-5.14.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jna-platform-5.14.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/slf4j-api-2.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
